@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive>
+    <archive targetInArchive="/PlantsByWebSphere.war">
+        <dir sourceOnDisk="D:\LibertyPoT_18.0.0.4_WIN\WLP_18.0.0.4\PlantsByWebSphereEE7\PlantsByWebSphere\WebContent" targetInArchive="/"/>
+    </archive>
+    <archive targetInArchive="/lib/pbw-lib.jar">
+        <dir sourceOnDisk="D:\LibertyPoT_18.0.0.4_WIN\WLP_18.0.0.4\PlantsByWebSphereEE7\pbw-lib\build\classes" targetInArchive="/"/>
+    </archive>
+    <dir sourceOnDisk="D:\LibertyPoT_18.0.0.4_WIN\WLP_18.0.0.4\PlantsByWebSphereEE7\PlantsByWebSphereEE7" targetInArchive="/"/>
+</archive>

@@ -220,7 +220,8 @@ public class CatalogMgr
 		inv = em.find(Inventory.class, inventoryID);
 //		em.lock(inv, LockModeType.WRITE);
 //		em.refresh(inv);
-        em.lock(inv, LockModeType.PESSIMISTIC_WRITE);
+//		em.lock(inv, LockModeType.PESSIMISTIC_READ);
+        em.lock(inv, LockModeType.PESSIMISTIC_READ);
 		return inv;
 	}
 	
